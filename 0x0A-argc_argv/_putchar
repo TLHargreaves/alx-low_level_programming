@@ -1,0 +1,14 @@
+#include <stdio.h>               
+#include "main.h"
+
+/**
+*putchar - writes the character c stdout
+*@c:character to print
+*
+*Return: on success 1
+*on error, -1 is return and err no is set appropriately
+*/              
+int _putchar(char c)              
+{
+return (write(1, &c, 1));               
+}
